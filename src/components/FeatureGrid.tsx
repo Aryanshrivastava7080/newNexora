@@ -88,6 +88,10 @@ const FeatureGrid = () => {
           {features.map((feature, index) => {
             const Icon = feature.icon;
             return (
+               <a
+                href={feature.link}
+               
+                   >
               <Card
                 key={index}
                 className="group hover:shadow-hover transition-all duration-300 cursor-pointer border-border/50 hover:border-primary/50 bg-card/50 backdrop-blur-sm"
@@ -103,6 +107,7 @@ const FeatureGrid = () => {
                   <p className="text-muted-foreground">{feature.description}</p>
                 </CardContent>
               </Card>
+              </a>
             );
           })}
         </div>

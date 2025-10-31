@@ -41,8 +41,8 @@ const CoursesSection = () => {
     {
       name: "Stanford Online",
       courses: [
-        { title: "Machine Learning Specialization", duration: "11 weeks", students: "4M+" },
-        { title: "Introduction to Statistics", duration: "10 weeks", students: "800K+" },
+        { title: "Machine Learning Specialization", duration: "11 weeks", students: "4M+",link:"https://www.stanford.edu/" },
+        { title: "Introduction to Statistics", duration: "10 weeks", students: "800K+", link:"" },
       ],
       logo: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f",
     },

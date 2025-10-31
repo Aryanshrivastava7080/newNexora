@@ -27,7 +27,7 @@ const Footer = () => {
         { name: "About Us", href: "#" },
         { name: "Careers", href: "#" },
         { name: "Blog", href: "#" },
-        { name: "Contact", href: "#" },
+        { name: "Contact", href: "https://contact-sooty-nine.vercel.app/" },
       ],
     },
     legal: {
